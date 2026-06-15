@@ -1,7 +1,7 @@
 ---
 title: rinrus_trim2_pdb
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # rinrus_trim2_pdb.py

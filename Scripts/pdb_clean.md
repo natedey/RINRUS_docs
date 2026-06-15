@@ -1,7 +1,7 @@
 ---
 title: pdb_clean
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 # pdb_clean.py
 

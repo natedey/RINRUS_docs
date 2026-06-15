@@ -1,7 +1,7 @@
 ---
 title: probe2rins
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # probe2rins.py

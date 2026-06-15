@@ -1,7 +1,7 @@
 ---
 title: fisapt_analysis
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 # fisapt_analysis.py
 

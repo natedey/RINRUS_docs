@@ -1,7 +1,7 @@
 ---
 title: pymol_protonate
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # pymol_protonate.py

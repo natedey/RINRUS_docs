@@ -1,7 +1,7 @@
 ---
 title: dist_rank
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # dist_rank.py

@@ -1,7 +1,7 @@
 ---
 title: 1. Active site selection
 layout: default
-parent: Instructions
+parent: "How to use RINRUS"
 nav_order: 3
 ---
 

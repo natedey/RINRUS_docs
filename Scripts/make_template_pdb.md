@@ -1,7 +1,7 @@
 ---
 title: make_template_pdb
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # make_template_pdb.py

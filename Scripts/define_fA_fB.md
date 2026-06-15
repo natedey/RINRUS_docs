@@ -1,7 +1,7 @@
 ---
 title: define_fA_fB
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # define_fA_fB.py

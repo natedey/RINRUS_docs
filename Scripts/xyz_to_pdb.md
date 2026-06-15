@@ -1,7 +1,7 @@
 ---
 title: xyz_to_pdb
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # xyz_to_pdb.py

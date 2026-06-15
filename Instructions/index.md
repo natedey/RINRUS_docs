@@ -1,5 +1,5 @@
 ---
-title: Instructions
+title: "How to use RINRUS"
 layout: home
 nav_order: 4
 has_children: true

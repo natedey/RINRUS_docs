@@ -1,5 +1,5 @@
 ---
-title: "Script input/output documentation"
+title: "Individual functions"
 layout: home
 nav_order: 5
 has_children: true

@@ -1,7 +1,7 @@
 ---
 title: check_duplicate_models
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # check_duplicate_models.py

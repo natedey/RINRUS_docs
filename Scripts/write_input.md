@@ -1,7 +1,7 @@
 ---
 title: write_input
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # write_input.py

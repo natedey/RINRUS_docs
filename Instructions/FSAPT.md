@@ -1,7 +1,7 @@
 ---
 title: FSAPT analysis
 layout: default
-parent: Instructions
+parent: "How to use RINRUS"
 nav_order: 6
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: arpeggio2rins
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # arpeggio2rins.py

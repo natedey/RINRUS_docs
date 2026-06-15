@@ -1,7 +1,7 @@
 ---
 title: MD_batch_rin
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # MD_batch_rin.py

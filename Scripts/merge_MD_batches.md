@@ -1,7 +1,7 @@
 ---
 title: merge_MD_batches
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # merge_MD_batches.py

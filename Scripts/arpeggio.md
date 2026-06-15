@@ -1,7 +1,7 @@
 ---
 title: Arpeggio
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # Arpeggio

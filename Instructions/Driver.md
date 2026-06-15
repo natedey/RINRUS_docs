@@ -1,7 +1,7 @@
 ---
 title: Driver
 layout: default
-parent: Instructions
+parent: "How to use RINRUS"
 nav_order: 2
 ---
 

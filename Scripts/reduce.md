@@ -1,7 +1,7 @@
 ---
 title: Reduce
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 
 # Reduce

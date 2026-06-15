@@ -1,7 +1,7 @@
 ---
 title: gopt_to_pdb
 layout: default
-parent: Scripts
+parent: "Individual functions"
 ---
 # gopt_to_pdb.py
 
