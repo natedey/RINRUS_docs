@@ -1,5 +1,5 @@
 ---
-title: To-do
+title: Group notes/to-do
 layout: home
 nav_order: 6
 ---

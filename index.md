@@ -17,7 +17,10 @@ RINRUS is the first tool available that performs automated and algorithmic trimm
 A software review paper is in preparation. For now, the best way to acknowledge RINRUS is to cite:
 [DOI: 10.1016/j.bpj.2021.07.029](https://doi.org/10.1016/j.bpj.2021.07.029), [DOI: 10.1016/bs.arcc.2024.10.002](https://doi.org/10.1016/bs.arcc.2024.10.002)
 and
-[DOI: 10.1039/D3CP06100K](https://doi.org/10.1039/D3CP06100K)
+[DOI: 10.1039/D3CP06100K](https://doi.org/10.1039/D3CP06100K).
+The repository itself can also be cited:
+[![DOI](https://zenodo.org/badge/136205837.svg)](https://zenodo.org/badge/latestdoi/136205837)
+
 
 The development of RINRUS has been supported by the National Science Foundation Division of Biological Infrastructure
 (CAREER BIO-1846408) and the Department of Energy Basic Energy Sciences (SBIR DE-SC0021568).

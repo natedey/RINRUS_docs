@@ -21,11 +21,25 @@ python $HOME/git/RINRUS/bin/RINRUS_driver.py
 
 ## Input file
 
-The input file tells the driver which model building steps to run and what arguments to pass to the relevant scripts. 
-All arguments for the individual scripts can be defined in the driver input file. 
-A [template `rinrus.inp` file](https://github.com/natedey/RINRUS/blob/master/template_files/rinrus.inp) containing all recognized keywords is provided in the template_files directory. 
+The input file is a simple text file containing "keyword: value" lines that tell the driver which model building steps to run and what arguments to pass to the relevant scripts. 
+All arguments for the individual scripts can be defined in the driver input file. A [template `rinrus.inp` file](https://github.com/natedey/RINRUS/blob/master/template_files/rinrus.inp) containing all recognized keywords is provided in the template_files directory. 
 
-The `rinrus.inp` file must contain the following options (only one of model and modelsize required):
+### Syntax
+
+The input file syntax is simply a set of "keyword: value" lines, for example:
+```
+pdb: 2cht_h_corrected_new.clean.pdb
+seed: A:203
+rin_program: probe
+model: max
+model_prot_ignore_ids: A:203
+qm_input_format: orca
+seed_charge: -2
+```
+
+### Recognized keywords
+
+The `rinrus.inp` file must contain the following options (only one of model and approx_model_size_limit required, approx_model_size_limit used if both are given):
 
 | keyword | value | function argument defined |
 |:--------|:------|:---------|
@@ -59,7 +73,7 @@ The following optional keywords can also be read from `rinrus.inp`:
 | model_prot_ignore_atnames | atom names | `-ignore_atnames` for [pymol_protonate.py](../Scripts/pymol_protonate.html) |
 | QM_input_template | path to input template | `-intmp` for [write_input.py](../Scripts/write_input.html) |
 | Gaussian_basis_intmp | true/t/y or false/f/n | `-basisinfo` for [write_input.py](../Scripts/write_input.html)
-| QM_calc_hopt | true/t/y or false/f/n | `-type hopt` for [write_input.py](../Scripts/write_input.html)
+| QM_input_hopt | true/t/y or false/f/n | `-type hopt` for [write_input.py](../Scripts/write_input.html)
 | seed_charge | charge of seed fragment(s) | `-c` for [write_input.py](../Scripts/write_input.html)
 | multiplicity | total spin multiplicity | `-m` for [write_input.py](../Scripts/write_input.html)
 | fsapt_fA | ch:ID identifiers | `-seed` for [write_input.py](../Scripts/write_input.html)
@@ -68,7 +82,7 @@ The following optional keywords can also be read from `rinrus.inp`:
 
 ## Log file
 The driver writes a log file called `rinrus_log_[date].out` which contains the details of the run:
-- Header containing the github commit tag so that building procedure can be reproduced even if code is later changed
+- Header containing the github version tag so that building procedure can be reproduced even if code is later changed
 - Python executable being used (for troubleshooting errors with python packages)
 - The raw contents of the driver input file
 - The options selected from parsing the driver input file
